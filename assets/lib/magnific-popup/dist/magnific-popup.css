@@ -301,6 +301,7 @@ img.mfp-img {
   
   }
 
+
 .mfp-image-holder .mfp-content {
   max-width: 100%; }
 
@@ -311,6 +312,19 @@ img.mfp-img {
   /**
        * Remove all paddings around the image on small screen
        */
+/*
+  .mfp-img-mobile .mfp-title {
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	float: none;
+	text-align: left;
+	line-height: 18px;
+	color: black;  
+	word-wrap: break-word; 
+	}
+*/
   .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0; }
@@ -347,6 +361,31 @@ img.mfp-img {
     padding: 0; } }
 
 @media all and (max-width: 900px) {
+  .mfp-title {
+  
+  
+  
+  }
+  .mfp-figure img.mfp-img {
+    max-width: 100%; }
+  .mfp-figure mfp-title {
+	max-width: 100%;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 0px;
+	float: none;
+	text-align: right;
+/*
+    
+	
+	
+	
+    line-height: 18px;
+    color: black; 
+    word-wrap: break-word; 
+*/
+  }
   .mfp-arrow {
     -webkit-transform: scale(0.75);
     transform: scale(0.75); }
