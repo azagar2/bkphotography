@@ -169,6 +169,14 @@ a,
   background-size: cover;
 }
 
+.module-port {
+	padding-top: 0px;
+}
+
+.module-port-sub {
+	padding-bottom: 0px;
+}
+
 /* Module header */
 .module-small {
   padding: 70px 0;
