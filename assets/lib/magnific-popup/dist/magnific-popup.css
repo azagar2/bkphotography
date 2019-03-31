@@ -362,30 +362,15 @@ img.mfp-img {
 
 @media all and (max-width: 900px) {
   .mfp-title {
-  
-  
-  
-  }
+  	max-width: 100%;
+  	text-align: left;
+  	margin-top: 0px;
+  	padding-bottom: 50px; }
   .mfp-figure img.mfp-img {
-    max-width: 100%; }
-  .mfp-figure mfp-title {
-	max-width: 100%;
-	margin-top: 10px;
-	padding-top: 10px;
-	padding-left: 30px;
-	padding-right: 0px;
-	float: none;
-	text-align: right;
-/*
-    
-	
-	
-	
-    line-height: 18px;
-    color: black; 
-    word-wrap: break-word; 
-*/
-  }
+    max-width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-height: 80%; } }
   .mfp-arrow {
     -webkit-transform: scale(0.75);
     transform: scale(0.75); }
