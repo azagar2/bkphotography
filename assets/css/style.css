@@ -1343,7 +1343,7 @@ General Styles - Owlcarousel
 }
 
 .dropdown-menu {
-  min-width: 180px;
+  min-width: 140px;
   font-size: 11px;
 }
 
@@ -2736,7 +2736,7 @@ Google map
   .navbar-custom .dropdown-menu .dropdown-toggle:after {
     position: absolute;
     display: block;
-    right: 9px;
+    right: 9px; 
     top: 50%;
     margin-top: -6px;
     font: normal normal normal 14px/1 FontAwesome;
