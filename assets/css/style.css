@@ -1980,9 +1980,10 @@ Google map
 
 /* Work item white background*/
 .works-grid.works-hover-w .work-title {
-  color: #111;
+  color: #111; 
 }
 
+/* CHANGE FOR MOBILE  */
 .works-grid.works-hover-w .work-item:hover .work-image:after {
   background: rgba(255, 255, 255, 0.6); /* CHANGED from 0.8 */ 
 }
